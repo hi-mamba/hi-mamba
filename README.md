@@ -82,6 +82,8 @@ If my extensions save you time, consider buying me a coffee ❤️
 <img src="assets/donate/wechat.png" width="220" alt="WeChat Pay QR">
 </details>
 
-## 📊 GitHub Stats
+---
 
-<img src="https://github-readme-stats.vercel.app/api?username=hi-mamba&show_icons=true&theme=transparent" width="420" alt="GitHub stats">
+<div align="center">
+<sub>Made with ❤️ · Feedback and stars are always welcome ⭐</sub>
+</div>
