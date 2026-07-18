@@ -36,6 +36,14 @@
 
 <sub>All extensions run 100% locally — no analytics, no tracking, no data ever leaves your browser.</sub>
 
+## 🚀 Projects / 其他项目
+
+### [FlowWater · 饮水修仙](https://github.com/hi-mamba/flowwater)
+
+一款把每日饮水习惯变成修仙养成体验的 PWA / Android 应用。记录饮水、积累修为、突破境界，并探索洞府、宗门、秘境与三界地图。
+
+`React 19` · `TypeScript` · `Vite` · `Three.js` · `Phaser` · `Capacitor`
+
 ## ☕ Support / 请我喝杯咖啡
 
 If my extensions save you time, consider buying me a coffee ❤️
