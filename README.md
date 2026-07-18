@@ -23,7 +23,14 @@
       <a href="https://chromewebstore.google.com/detail/imeihmhhkoofnbjgogddeplgnkbkopok"><img src="https://img.shields.io/badge/Install-Chrome_Web_Store-4285F4?logo=googlechrome&logoColor=white" alt="Install"></a>
     </td>
   </tr>
-  <tr>
+   <tr>
+    <td align="center"><img src="assets/icons/dev-toolbox.png" width="40" alt=""></td>
+    <td><b>Dev Toolbox</b><br>
+        <sub>10 合 1 本地开发工具箱：JSON/JWT/cURL/二维码… · 10-in-1 local developer toolbox, no upload</sub></td>
+    <td align="center" width="170">
+      <a href="https://chromewebstore.google.com/detail/dev-toolbox/lfgjemggkbhoolgmcikfmbdmnlikkmio"><img src="https://img.shields.io/badge/Install-Chrome_Web_Store-4285F4?logo=googlechrome&logoColor=white" alt="Install"></a>
+    </td>
+  </tr>
  
 </table>
 
