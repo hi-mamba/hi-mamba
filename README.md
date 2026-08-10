@@ -2,9 +2,9 @@
 
 # 👋 Hi, I'm mamba
 
-**I build small, fast, privacy-friendly Chrome extensions.**
+**I build small, fast, privacy-friendly local tools and apps.**
 
-纯本地运行 · 零数据上传 · 开箱即用
+浏览器扩展与桌面工具 · 本地优先 · 开箱即用
 
 <a href="https://chromewebstore.google.com/detail/imeihmhhkoofnbjgogddeplgnkbkopok"><img src="https://img.shields.io/badge/Chrome_Web_Store-Developer-4285F4?logo=googlechrome&logoColor=white" alt="Chrome Web Store"></a>
 <img src="https://img.shields.io/badge/Manifest-V3-34A853?logo=googlechrome&logoColor=white" alt="Manifest V3">
@@ -39,6 +39,14 @@
 ## 📱 Apps
 
 <table>
+  <tr>
+    <td width="56" align="center"><span style="font-size: 32px">⚙️</span></td>
+    <td><b>OpsFlow Studio</b><br>
+        <sub>本地数据清洗与 API 批处理桌面工具，支持 Postman 导入与 GitHub 工作区同步 · Local-first data cleanup and API workflow desktop app</sub></td>
+    <td align="center" width="170">
+      <a href="https://github.com/hi-mamba/desktop-app-releases/releases?q=opsflow-v"><img src="https://img.shields.io/badge/Download-GitHub_Releases-181717?logo=github&logoColor=white" alt="Download OpsFlow Studio"></a>
+    </td>
+  </tr>
   <tr>
     <td width="56" align="center"><span style="font-size: 32px">💧</span></td>
     <td><b>悦泉修仙 · FlowWater</b><br>
