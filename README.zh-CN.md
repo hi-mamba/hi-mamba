@@ -16,7 +16,7 @@
 ## 🧰 技术栈
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=kotlin,java,js,ts,nodejs,html,css,electron,gradle,vscode,idea,git,github&perline=13" alt="技术栈">
+  <img src="https://skillicons.dev/icons?i=java,git,github,gradle,idea" alt="技术栈">
 </p>
 
 ## 🧩 Chrome 扩展

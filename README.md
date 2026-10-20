@@ -16,7 +16,7 @@
 ## 🧰 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=kotlin,java,js,ts,nodejs,html,css,electron,gradle,vscode,idea,git,github&perline=13" alt="Tech stack">
+  <img src="https://skillicons.dev/icons?i=java,git,github,gradle,idea" alt="Tech stack">
 </p>
 
 ## 🧩 Chrome Extensions
