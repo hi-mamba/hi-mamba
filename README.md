@@ -47,7 +47,7 @@
       <b>AI Commit Writer</b><br>
       <sub>Generate Conventional Commits messages from your staged diff with your own OpenAI-compatible API key.</sub><br><br>
       <a href="https://plugins.jetbrains.com/plugin/32528-ai-commit-writer"><img src="https://img.shields.io/badge/JetBrains-Marketplace-000000?logo=jetbrains&logoColor=white" alt="JetBrains Marketplace"></a>
-      <img src="https://img.shields.io/badge/VS_Code-Coming_soon-lightgrey?logo=visualstudiocode&logoColor=white" alt="VS Code coming soon">
+      <a href="https://marketplace.visualstudio.com/items?itemName=hi-mamba.hi-mamba-ai-commit-writer"><img src="https://img.shields.io/badge/VS_Code-Marketplace-007ACC?logo=visualstudiocode&logoColor=white" alt="VS Code Marketplace"></a>
     </td>
     <td width="50%" valign="top">
       <img src="assets/icons/api-request-copier.svg" width="36" align="left" alt="">

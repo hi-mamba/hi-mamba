@@ -47,7 +47,7 @@
       <b>AI Commit Writer</b><br>
       <sub>根据暂存区 diff 一键生成 Conventional Commits 提交信息，使用你自己的 OpenAI 兼容 API Key。</sub><br><br>
       <a href="https://plugins.jetbrains.com/plugin/32528-ai-commit-writer"><img src="https://img.shields.io/badge/JetBrains-Marketplace-000000?logo=jetbrains&logoColor=white" alt="JetBrains 插件市场"></a>
-      <img src="https://img.shields.io/badge/VS_Code-Coming_soon-lightgrey?logo=visualstudiocode&logoColor=white" alt="VS Code 即将上架">
+      <a href="https://marketplace.visualstudio.com/items?itemName=hi-mamba.hi-mamba-ai-commit-writer"><img src="https://img.shields.io/badge/VS_Code-Marketplace-007ACC?logo=visualstudiocode&logoColor=white" alt="VS Code 插件市场"></a>
     </td>
     <td width="50%" valign="top">
       <img src="assets/icons/api-request-copier.svg" width="36" align="left" alt="">
