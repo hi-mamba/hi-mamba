@@ -24,12 +24,14 @@
 <table>
   <tr>
     <td width="50%" valign="top">
+      <img src="assets/spacer.png" width="380" height="1" alt=""><br>
       <img src="assets/icons/timestamp.png" width="36" align="left" alt="">
       <b>Timestamp Converter</b><br>
       <sub>Convert Unix timestamps ↔ human-readable dates, fast and simple.</sub><br><br>
       <a href="https://chromewebstore.google.com/detail/imeihmhhkoofnbjgogddeplgnkbkopok"><img src="https://img.shields.io/badge/Install-Chrome_Web_Store-4285F4?logo=googlechrome&logoColor=white" alt="Install"></a>
     </td>
     <td width="50%" valign="top">
+      <img src="assets/spacer.png" width="380" height="1" alt=""><br>
       <img src="assets/icons/dev-toolbox.png" width="36" align="left" alt="">
       <b>Dev Toolbox</b><br>
       <sub>10-in-1 local developer toolbox: JSON / JWT / cURL / QR code… nothing is uploaded.</sub><br><br>
@@ -43,6 +45,7 @@
 <table>
   <tr>
     <td width="50%" valign="top">
+      <img src="assets/spacer.png" width="380" height="1" alt=""><br>
       <img src="assets/icons/ai-commit-writer.svg" width="36" align="left" alt="">
       <b>AI Commit Writer</b><br>
       <sub>Generate Conventional Commits messages from your staged diff with your own OpenAI-compatible API key.</sub><br><br>
@@ -50,6 +53,7 @@
       <a href="https://marketplace.visualstudio.com/items?itemName=hi-mamba.hi-mamba-ai-commit-writer"><img src="https://img.shields.io/badge/VS_Code-Marketplace-007ACC?logo=visualstudiocode&logoColor=white" alt="VS Code Marketplace"></a>
     </td>
     <td width="50%" valign="top">
+      <img src="assets/spacer.png" width="380" height="1" alt=""><br>
       <img src="assets/icons/api-request-copier.svg" width="36" align="left" alt="">
       <b>API Request Copier</b><br>
       <sub>Copy Spring MVC & JSON-RPC endpoints as cURL (Bash / PowerShell / CMD) or HTTP requests.</sub><br><br>
@@ -64,11 +68,13 @@
 <table>
   <tr>
     <td width="50%" valign="top">
+      <img src="assets/spacer.png" width="380" height="1" alt=""><br>
       <b>⚙️ OpsFlow Studio</b><br>
       <sub>Local-first data cleanup and API batch workflow desktop app, with Postman import and GitHub workspace sync.</sub><br><br>
       <a href="https://github.com/hi-mamba/desktop-app-releases/releases?q=opsflow-v"><img src="https://img.shields.io/badge/Download-GitHub_Releases-181717?logo=github&logoColor=white" alt="Download OpsFlow Studio"></a>
     </td>
     <td width="50%" valign="top">
+      <img src="assets/spacer.png" width="380" height="1" alt=""><br>
       <b>💧 FlowWater</b><br>
       <sub>A PWA / Android app that turns daily hydration into a cultivation journey.</sub><br><br>
       <a href="https://github.com/hi-mamba/flowwater"><img src="https://img.shields.io/badge/View-GitHub-181717?logo=github&logoColor=white" alt="View on GitHub"></a>
