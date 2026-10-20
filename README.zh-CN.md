@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,50:7C3AED,100:06B6D4&height=200&section=header&text=Hi,%20I'm%20mamba&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=%E6%9C%AC%E5%9C%B0%E4%BC%98%E5%85%88%E5%B7%A5%E5%85%B7%20%C2%B7%20%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%A9%E5%B1%95%20%C2%B7%20IDE%20%E6%8F%92%E4%BB%B6&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="你好，我是 mamba">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,50:7C3AED,100:06B6D4&height=200&section=header&text=Hi%20mamba&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=%E6%9C%AC%E5%9C%B0%E4%BC%98%E5%85%88%E5%B7%A5%E5%85%B7%20%C2%B7%20%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%A9%E5%B1%95%20%C2%B7%20IDE%20%E6%8F%92%E4%BB%B6&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="Hi mamba">
 
 <div align="center">
 

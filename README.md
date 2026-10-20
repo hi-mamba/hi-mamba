@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,50:7C3AED,100:06B6D4&height=200&section=header&text=Hi,%20I'm%20mamba&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=Local-first%20tools%20%C2%B7%20Browser%20extensions%20%C2%B7%20IDE%20plugins&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="Hi, I'm mamba">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,50:7C3AED,100:06B6D4&height=200&section=header&text=Hi%20mamba&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=Local-first%20tools%20%C2%B7%20Browser%20extensions%20%C2%B7%20IDE%20plugins&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="Hi mamba">
 
 <div align="center">
 
