@@ -16,12 +16,13 @@
 ## 🧰 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,git,github,gradle,idea" alt="Tech stack">
+  <img src="https://skillicons.dev/icons?i=java,spring,py,git,github,gradle,idea" alt="Tech stack">
 </p>
 
-## 🧩 Chrome Extensions
-
-<table>
+<table align="center">
+  <tr>
+    <th colspan="2" align="left"><h3>🧩 Chrome Extensions</h3></th>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <img src="assets/spacer.png" width="380" height="1" alt=""><br>
@@ -38,11 +39,9 @@
       <a href="https://chromewebstore.google.com/detail/dev-toolbox/lfgjemggkbhoolgmcikfmbdmnlikkmio"><img src="https://img.shields.io/badge/Install-Chrome_Web_Store-4285F4?logo=googlechrome&logoColor=white" alt="Install"></a>
     </td>
   </tr>
-</table>
-
-## 🛠️ IDE Plugins
-
-<table>
+  <tr>
+    <th colspan="2" align="left"><h3>🛠️ IDE Plugins</h3></th>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <img src="assets/spacer.png" width="380" height="1" alt=""><br>
@@ -61,11 +60,9 @@
       <a href="https://marketplace.visualstudio.com/items?itemName=hi-mamba.api-request-copier"><img src="https://img.shields.io/badge/VS_Code-Marketplace-007ACC?logo=visualstudiocode&logoColor=white" alt="VS Code Marketplace"></a>
     </td>
   </tr>
-</table>
-
-## 📱 Apps
-
-<table>
+  <tr>
+    <th colspan="2" align="left"><h3>📱 Apps</h3></th>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <img src="assets/spacer.png" width="380" height="1" alt=""><br>

@@ -16,12 +16,13 @@
 ## 🧰 技术栈
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,git,github,gradle,idea" alt="技术栈">
+  <img src="https://skillicons.dev/icons?i=java,spring,py,git,github,gradle,idea" alt="技术栈">
 </p>
 
-## 🧩 Chrome 扩展
-
-<table>
+<table align="center">
+  <tr>
+    <th colspan="2" align="left"><h3>🧩 Chrome 扩展</h3></th>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <img src="assets/spacer.png" width="380" height="1" alt=""><br>
@@ -38,11 +39,9 @@
       <a href="https://chromewebstore.google.com/detail/dev-toolbox/lfgjemggkbhoolgmcikfmbdmnlikkmio"><img src="https://img.shields.io/badge/Install-Chrome_Web_Store-4285F4?logo=googlechrome&logoColor=white" alt="安装"></a>
     </td>
   </tr>
-</table>
-
-## 🛠️ IDE 插件
-
-<table>
+  <tr>
+    <th colspan="2" align="left"><h3>🛠️ IDE 插件</h3></th>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <img src="assets/spacer.png" width="380" height="1" alt=""><br>
@@ -61,11 +60,9 @@
       <a href="https://marketplace.visualstudio.com/items?itemName=hi-mamba.api-request-copier"><img src="https://img.shields.io/badge/VS_Code-Marketplace-007ACC?logo=visualstudiocode&logoColor=white" alt="VS Code 插件市场"></a>
     </td>
   </tr>
-</table>
-
-## 📱 应用
-
-<table>
+  <tr>
+    <th colspan="2" align="left"><h3>📱 应用</h3></th>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <img src="assets/spacer.png" width="380" height="1" alt=""><br>
