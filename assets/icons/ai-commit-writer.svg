@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <!-- AI Commit Writer: filled badge — git line + commit node + AI spark -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4286F5"/>
+      <stop offset="1" stop-color="#2B62E0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="40" height="40" rx="9" fill="url(#g)"/>
+  <line x1="7" y1="25" x2="27" y2="25" stroke="#fff" stroke-width="3.6" stroke-linecap="round"/>
+  <circle cx="14" cy="25" r="5.4" fill="#fff"/>
+  <path d="M28.5 4.0 L30.4 11.6 L38.0 13.5 L30.4 15.4 L28.5 23.0 L26.6 15.4 L19.0 13.5 L26.6 11.6 Z" fill="#FFC93C"/>
+  <path d="M32.5 19.6 L33.18 22.32 L35.9 23 L33.18 23.68 L32.5 26.4 L31.82 23.68 L29.1 23 L31.82 22.32 Z" fill="#FFC93C"/>
+</svg>

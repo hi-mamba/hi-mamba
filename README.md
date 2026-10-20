@@ -4,7 +4,7 @@
 
 **I build small, fast, privacy-friendly local tools and apps.**
 
-浏览器扩展与桌面工具 · 本地优先 · 开箱即用
+浏览器扩展 · IDE 插件 · 桌面工具 · 本地优先 · 开箱即用
 
 <a href="https://chromewebstore.google.com/detail/imeihmhhkoofnbjgogddeplgnkbkopok"><img src="https://img.shields.io/badge/Chrome_Web_Store-Developer-4285F4?logo=googlechrome&logoColor=white" alt="Chrome Web Store"></a>
 <img src="https://img.shields.io/badge/Manifest-V3-34A853?logo=googlechrome&logoColor=white" alt="Manifest V3">
@@ -35,6 +35,29 @@
 </table>
 
 <sub>All extensions run 100% locally — no analytics, no tracking, no data ever leaves your browser.</sub>
+
+## 🛠️ IDE Plugins · VS Code & JetBrains
+
+<table>
+  <tr>
+    <td width="56" align="center"><img src="assets/icons/ai-commit-writer.svg" width="40" alt=""></td>
+    <td><b>AI Commit Writer</b><br>
+        <sub>根据暂存区 diff 一键生成 Conventional Commits 提交信息，自带 API Key（OpenAI 兼容） · Generate Conventional Commits messages from your staged diff with your own OpenAI-compatible API key</sub></td>
+    <td align="center" width="170">
+      <img src="https://img.shields.io/badge/VS_Code-Coming_soon-lightgrey?logo=visualstudiocode&logoColor=white" alt="VS Code coming soon"><br>
+      <a href="https://plugins.jetbrains.com/plugin/32528-ai-commit-writer"><img src="https://img.shields.io/badge/JetBrains-Marketplace-000000?logo=jetbrains&logoColor=white" alt="JetBrains Marketplace"></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/icons/api-request-copier.svg" width="40" alt=""></td>
+    <td><b>API Request Copier</b><br>
+        <sub>选中 Spring MVC / JSON-RPC 的类或方法，直接复制成 cURL / HTTP 请求 · Copy Spring MVC & JSON-RPC endpoints as cURL (Bash/PowerShell/CMD) or HTTP requests</sub></td>
+    <td align="center" width="170">
+      <a href="https://marketplace.visualstudio.com/items?itemName=hi-mamba.api-request-copier"><img src="https://img.shields.io/badge/VS_Code-Marketplace-007ACC?logo=visualstudiocode&logoColor=white" alt="VS Code Marketplace"></a><br>
+      <a href="https://plugins.jetbrains.com/plugin/35247-api-request-copier"><img src="https://img.shields.io/badge/JetBrains-Marketplace-000000?logo=jetbrains&logoColor=white" alt="JetBrains Marketplace"></a>
+    </td>
+  </tr>
+</table>
 
 ## 📱 Apps
 
