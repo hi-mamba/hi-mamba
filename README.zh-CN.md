@@ -77,6 +77,16 @@
       <a href="https://github.com/hi-mamba/flowwater"><img src="https://img.shields.io/badge/View-GitHub-181717?logo=github&logoColor=white" alt="在 GitHub 查看"></a>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/spacer.png" width="380" height="1" alt=""><br>
+      <b>☯️ 道生一 DAOSI</b><br>
+      <sub>修仙主题的每日中枢：日程与晨钟、资讯订阅、英 / 日 / 粤语听说训练；语音识别和大模型都在本机运行。安卓 · Windows · macOS · iOS。</sub><br><br>
+      <a href="https://hi-mamba.github.io/hi-mamba/daosi/"><img src="https://img.shields.io/badge/下载页-Android_%7C_Windows_%7C_macOS_%7C_iOS-B83A2E" alt="下载页"></a>
+      <a href="https://github.com/hi-mamba/hi-mamba/releases/download/daosi-latest/DAOSI-Android.apk"><img src="https://img.shields.io/badge/下载-APK-3DDC84?logo=android&logoColor=white" alt="下载 APK"></a>
+    </td>
+    <td width="50%" valign="top"></td>
+  </tr>
 </table>
 
 <sub>🔒 全部本地运行——不统计、不追踪，数据绝不离开你的电脑。</sub>

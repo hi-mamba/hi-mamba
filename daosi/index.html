@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>道生一 DAOSI 下载</title>
+<meta name="description" content="道生一 DAOSI：修仙主题的日程、资讯订阅与英 / 日 / 粤语学习应用。安卓、Windows、macOS、iOS 下载。">
+<style>
+  :root {
+    --paper: #F5EFE3; --card: #FBF8F1; --ink: #1E1B18; --ink-soft: #4A443D; --muted: #8A8075;
+    --line: #E3D9C6; --cinnabar: #B83A2E; --cinnabar-soft: #F3DCD6; --jade: #3E7C6B; --gold: #B8893B;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #16181D; --card: #1D2026; --ink: #EDE7DA; --ink-soft: #C9BFAE; --muted: #8F877B;
+      --line: #33363F; --cinnabar: #D9584A; --cinnabar-soft: #3A2422; --jade: #6DB39C; --gold: #D4A85A; }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--paper); color: var(--ink); font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", system-ui, sans-serif; line-height: 1.6; padding: 32px 16px 64px; }
+  .wrap { max-width: 860px; margin: 0 auto; }
+  header { display: flex; gap: 18px; align-items: center; margin-bottom: 28px; }
+  .seal { width: 64px; height: 76px; border-radius: 8px; background: var(--cinnabar); color: #FBEFE6; display: flex; align-items: center; justify-content: center; writing-mode: vertical-rl; font-family: "Songti SC", "SimSun", serif; font-weight: 900; font-size: 26px; letter-spacing: 4px; box-shadow: inset 0 0 0 2px rgba(255,255,255,.35); flex-shrink: 0; }
+  h1 { font-family: "Songti SC", "SimSun", "Noto Serif SC", serif; font-size: 34px; letter-spacing: 3px; }
+  h1 small { font-size: 16px; color: var(--muted); letter-spacing: 1px; margin-left: 6px; }
+  .tagline { color: var(--ink-soft); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin: 22px 0; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 18px; display: flex; flex-direction: column; gap: 8px; }
+  .card h2 { font-family: "Songti SC", "SimSun", serif; font-size: 20px; display: flex; align-items: center; gap: 8px; }
+  .meta { color: var(--muted); font-size: 13px; min-height: 20px; }
+  .btn { display: inline-block; text-align: center; padding: 11px 16px; border-radius: 22px; text-decoration: none; font-weight: 600; background: var(--ink); color: var(--paper); margin-top: auto; }
+  .btn.off { background: var(--line); color: var(--muted); pointer-events: none; }
+  .note { font-size: 13px; color: var(--ink-soft); }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; margin-top: 14px; }
+  section h3 { font-family: "Songti SC", "SimSun", serif; margin-bottom: 8px; }
+  ol, ul { padding-left: 20px; color: var(--ink-soft); }
+  li { margin: 4px 0; }
+  .tag { display: inline-block; font-size: 12px; padding: 1px 8px; border-radius: 10px; background: var(--cinnabar-soft); color: var(--cinnabar); }
+  footer { color: var(--muted); font-size: 13px; margin-top: 28px; text-align: center; }
+  a { color: var(--jade); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="seal">道生一</div>
+    <div>
+      <h1>道生一 <small>DAOSI</small></h1>
+      <p class="tagline">道生一，一生二，二生三，三生万物 —— 每日一修，万物自生。<br>日程与晨钟 · 资讯订阅 · 英 / 日 / 粤语"听得懂、说得出"，在一套修仙成长体系里。</p>
+    </div>
+  </header>
+
+  <div class="grid" id="downloads">
+    <div class="card" data-asset="DAOSI-Android.apk" data-fallback="DAOSI-Android-debug.apk">
+      <h2>🤖 安卓</h2>
+      <div class="meta">Android 8.0+ · 64 位（arm64）</div>
+      <a class="btn" href="#">下载 APK</a>
+    </div>
+    <div class="card" data-asset="DAOSI-Windows.msi">
+      <h2>🪟 Windows</h2>
+      <div class="meta">Windows 10 / 11 · 64 位</div>
+      <a class="btn" href="#">下载 MSI</a>
+    </div>
+    <div class="card" data-asset="DAOSI-macOS.dmg">
+      <h2>🍎 macOS</h2>
+      <div class="meta">macOS 12+ · Apple 芯片 / Intel</div>
+      <a class="btn" href="#">下载 DMG</a>
+    </div>
+    <div class="card" data-asset="DAOSI-iOS-unsigned.ipa">
+      <h2>📱 iOS</h2>
+      <div class="meta">iOS 16+ · 未签名测试版</div>
+      <a class="btn" href="#">下载 IPA</a>
+    </div>
+  </div>
+  <p class="note" id="status">正在读取最新版本…</p>
+
+  <section>
+    <h3>安装说明</h3>
+    <ul>
+      <li><b>安卓</b>：下载后打开 APK；首次需要在 设置 › 安全 里允许"安装未知来源应用"。</li>
+      <li><b>Windows</b>：双击 MSI 安装。暂未购买代码签名证书，如出现 SmartScreen 提示，点"更多信息 › 仍要运行"。</li>
+      <li><b>macOS</b>：打开 DMG，把道生一拖进"应用程序"。暂未公证，首次打开请在 系统设置 › 隐私与安全性 里点"仍要打开"。</li>
+      <li><b>iOS</b>：<span class="tag">测试版</span> 暂无 Apple 开发者签名，需要用 AltStore / Sideloadly 等工具以你自己的 Apple ID 签名后安装（免费 Apple ID 签名 7 天有效）。</li>
+      <li>首次使用：在「修为 › 法宝库」下载语音识别模型和词库（建议 Wi-Fi）。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>各平台功能</h3>
+    <ul>
+      <li>安卓：完整功能（晨钟锁屏跟读、语音识别、本地大模型、功法、修炼场、藏经阁、同步）。</li>
+      <li>Windows / macOS / iOS：首批提供 洞府、日程与待办、修为；功法、语音与藏经阁陆续上线。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>隐私</h3>
+    <p class="note">无账号、无广告、无统计。数据默认只保存在你的设备上；语音识别和本地大模型都在设备上运行。可选同步只去你自己的 GitHub 私有仓库或网盘。</p>
+  </section>
+
+  <footer>
+    <a href="https://github.com/hi-mamba/hi-mamba/releases/tag/daosi-latest">全部文件</a> ·
+    <a href="https://github.com/hi-mamba/hi-mamba/releases?q=daosi-v">历史版本</a> ·
+    反馈：kobe24pankui@gmail.com
+  </footer>
+</div>
+<script>
+  // Fixed download URLs on the rolling `daosi-latest` release; the API call only adds size / date info.
+  const BASE = "https://github.com/hi-mamba/hi-mamba/releases/download/daosi-latest/";
+  const cards = [...document.querySelectorAll("[data-asset]")];
+  const status = document.getElementById("status");
+  cards.forEach(c => { c.querySelector(".btn").href = BASE + c.dataset.asset; });
+  fetch("https://api.github.com/repos/hi-mamba/hi-mamba/releases/tags/daosi-latest")
+    .then(r => r.ok ? r.json() : Promise.reject(r.status))
+    .then(rel => {
+      const assets = Object.fromEntries((rel.assets || []).map(a => [a.name, a]));
+      cards.forEach(c => {
+        const a = assets[c.dataset.asset] || (c.dataset.fallback && assets[c.dataset.fallback]);
+        const btn = c.querySelector(".btn");
+        const meta = c.querySelector(".meta");
+        if (!a) { btn.classList.add("off"); btn.textContent = "即将推出"; return; }
+        btn.href = a.browser_download_url;
+        const mb = (a.size / 1048576).toFixed(1);
+        meta.textContent += ` · ${mb} MB · ${new Date(a.updated_at).toLocaleDateString("zh-CN")}`;
+      });
+      status.textContent = `最新构建：${rel.name || rel.tag_name}（${new Date(rel.published_at || rel.created_at).toLocaleString("zh-CN")}）`;
+    })
+    .catch(() => { status.textContent = "暂时无法读取版本信息，按钮仍指向最新安装包。"; });
+</script>
+</body>
+</html>
