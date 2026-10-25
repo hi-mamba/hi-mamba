@@ -18,7 +18,7 @@
   body { background: var(--paper); color: var(--ink); font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", system-ui, sans-serif; line-height: 1.6; padding: 32px 16px 64px; }
   .wrap { max-width: 860px; margin: 0 auto; }
   header { display: flex; gap: 18px; align-items: center; margin-bottom: 28px; }
-  .seal { width: 64px; height: 76px; border-radius: 8px; background: var(--cinnabar); color: #FBEFE6; display: flex; align-items: center; justify-content: center; writing-mode: vertical-rl; font-family: "Songti SC", "SimSun", serif; font-weight: 900; font-size: 26px; letter-spacing: 4px; box-shadow: inset 0 0 0 2px rgba(255,255,255,.35); flex-shrink: 0; }
+  .seal { width: 60px; height: 104px; border-radius: 8px; background: var(--cinnabar); color: #FBEFE6; display: flex; align-items: center; justify-content: center; writing-mode: vertical-rl; font-family: "Songti SC", "SimSun", serif; font-weight: 900; font-size: 24px; letter-spacing: 4px; box-shadow: inset 0 0 0 2px rgba(255,255,255,.35); flex-shrink: 0; }
   h1 { font-family: "Songti SC", "SimSun", "Noto Serif SC", serif; font-size: 34px; letter-spacing: 3px; }
   h1 small { font-size: 16px; color: var(--muted); letter-spacing: 1px; margin-left: 6px; }
   .tagline { color: var(--ink-soft); }
@@ -123,7 +123,15 @@
       });
       status.textContent = `最新构建：${rel.name || rel.tag_name}（${new Date(rel.published_at || rel.created_at).toLocaleString("zh-CN")}）`;
     })
-    .catch(() => { status.textContent = "暂时无法读取版本信息，按钮仍指向最新安装包。"; });
+    .catch(code => {
+      if (code === 404) {
+        // No public build has been published yet.
+        cards.forEach(c => { const b = c.querySelector(".btn"); b.classList.add("off"); b.textContent = "即将推出"; });
+        status.textContent = "首个公开版本正在准备中。";
+      } else {
+        status.textContent = "暂时无法读取版本信息，按钮仍指向最新安装包。";
+      }
+    });
 </script>
 </body>
 </html>
