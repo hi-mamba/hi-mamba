@@ -83,7 +83,7 @@
       <b>☯️ 道生一 DAOSI</b><br>
       <sub>修仙主题的每日中枢：日程与晨钟、资讯订阅、英 / 日 / 粤语听说训练；语音识别和大模型都在本机运行。安卓 · Windows · macOS · iOS。</sub><br><br>
       <a href="https://hi-mamba.github.io/hi-mamba/daosi/"><img src="https://img.shields.io/badge/下载页-Android_%7C_Windows_%7C_macOS_%7C_iOS-B83A2E" alt="下载页"></a>
-      <a href="https://github.com/hi-mamba/hi-mamba/releases/download/daosi-latest/DAOSI-Android.apk"><img src="https://img.shields.io/badge/下载-APK-3DDC84?logo=android&logoColor=white" alt="下载 APK"></a>
+      <a href="https://github.com/hi-mamba/hi-mamba/raw/daosi-downloads/DAOSI-Android-debug.apk"><img src="https://img.shields.io/badge/下载-APK-3DDC84?logo=android&logoColor=white" alt="下载 APK"></a>
     </td>
     <td width="50%" valign="top"></td>
   </tr>
