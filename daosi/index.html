@@ -125,9 +125,21 @@
     })
     .catch(code => {
       if (code === 404) {
-        // No public build has been published yet.
-        cards.forEach(c => { const b = c.querySelector(".btn"); b.classList.add("off"); b.textContent = "即将推出"; });
-        status.textContent = "首个公开版本正在准备中。";
+        // No release yet: fall back to installers pushed to the `daosi-downloads` branch.
+        fetch("https://api.github.com/repos/hi-mamba/hi-mamba/contents/?ref=daosi-downloads")
+          .then(r => r.ok ? r.json() : [])
+          .then(files => {
+            const byName = Object.fromEntries(files.map(f => [f.name, f]));
+            cards.forEach(c => {
+              const f = byName[c.dataset.asset] || (c.dataset.fallback && byName[c.dataset.fallback]);
+              const b = c.querySelector(".btn");
+              if (!f) { b.classList.add("off"); b.textContent = "即将推出"; return; }
+              b.href = "https://github.com/hi-mamba/hi-mamba/raw/daosi-downloads/" + f.name;
+              c.querySelector(".meta").textContent += ` · ${(f.size / 1048576).toFixed(1)} MB`;
+            });
+            status.textContent = "当前为手动发布的测试版本。";
+          })
+          .catch(() => { status.textContent = "暂时无法读取版本信息。"; });
       } else {
         status.textContent = "暂时无法读取版本信息，按钮仍指向最新安装包。";
       }
