@@ -1,0 +1,5 @@
+# GitHub Pages only serves the DAOSI download page (daosi/) and privacy policies (privacy/).
+# The profile READMEs are written for github.com/hi-mamba and render badly as web pages.
+exclude:
+  - README.md
+  - README.zh-CN.md
