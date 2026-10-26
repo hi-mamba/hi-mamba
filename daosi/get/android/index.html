@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>下载道生一 DAOSI（安卓）</title>
+<style>body{font-family:system-ui,"PingFang SC","Microsoft YaHei",sans-serif;background:#F5EFE3;color:#1E1B18;text-align:center;padding:64px 16px}a{color:#3E7C6B}@media(prefers-color-scheme:dark){body{background:#16181D;color:#EDE7DA}a{color:#6DB39C}}</style>
+</head>
+<body>
+<p id="msg">正在获取道生一（安卓）最新安装包…</p>
+<p><a href="../../">返回下载页</a></p>
+<script>
+  // Stable QR target: picks the newest public file (release `daosi-latest` first, then the daosi-downloads branch).
+  const names = ["DAOSI-Android.apk", "DAOSI-Android-debug.apk"];
+  const msg = document.getElementById("msg");
+  // WeChat / QQ in-app browsers block file downloads: ask the user to open the page in a real browser.
+  const inApp = /MicroMessenger|QQ\//i.test(navigator.userAgent);
+  const go = url => {
+    if (inApp) { msg.innerHTML = '微信 / QQ 内无法直接下载。<br>请点右上角 <b>···</b>，选择 <b>在浏览器打开</b>。'; return; } msg.innerHTML = '即将开始下载。如果没有自动开始，<a href="' + url + '">点这里</a>。'; location.replace(url); };
+  fetch("https://api.github.com/repos/hi-mamba/hi-mamba/releases/tags/daosi-latest")
+    .then(r => r.ok ? r.json() : { assets: [] })
+    .then(rel => {
+      const a = (rel.assets || []).find(x => names.includes(x.name));
+      if (a) return go(a.browser_download_url);
+      return fetch("https://api.github.com/repos/hi-mamba/hi-mamba/contents/?ref=daosi-downloads")
+        .then(r => r.ok ? r.json() : [])
+        .then(files => {
+          const f = names.map(n => files.find(x => x.name === n)).find(Boolean);
+          if (f) go("https://github.com/hi-mamba/hi-mamba/raw/daosi-downloads/" + f.name);
+          else msg.textContent = "这个平台的安装包即将推出。";
+        });
+    })
+    .catch(() => go("https://github.com/hi-mamba/hi-mamba/raw/daosi-downloads/" + names[names.length - 1]));
+</script>
+</body>
+</html>

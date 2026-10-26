@@ -82,6 +82,7 @@
       <img src="assets/spacer.png" width="380" height="1" alt=""><br>
       <b>☯️ DAOSI · 道生一</b><br>
       <sub>A cultivation-themed daily hub: schedule &amp; wake-up alarm, RSS, and English / Japanese / Cantonese listening &amp; speaking — on-device speech recognition and LLM. Android · Windows · macOS · iOS.</sub><br><br>
+      <a href="https://hi-mamba.github.io/hi-mamba/daosi/"><img src="daosi/qr/page.png" width="96" align="right" alt="Scan to download"></a>
       <a href="https://hi-mamba.github.io/hi-mamba/daosi/"><img src="https://img.shields.io/badge/Download_page-Android_%7C_Windows_%7C_macOS_%7C_iOS-B83A2E" alt="Download page"></a>
       <a href="https://github.com/hi-mamba/hi-mamba/raw/daosi-downloads/DAOSI-Android-debug.apk"><img src="https://img.shields.io/badge/Download-APK-3DDC84?logo=android&logoColor=white" alt="Download APK"></a>
     </td>
