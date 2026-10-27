@@ -1,0 +1,512 @@
+{
+  "schema": 1,
+  "updatedAt": "2026-10-27",
+  "packs": [
+    {
+      "id": "vocab-en-cet4",
+      "kind": "VOCAB",
+      "version": 1,
+      "title": "英语四级词库",
+      "files": [
+        {
+          "name": "vocab-en-cet4.db",
+          "size": 856064,
+          "sha256": "30f8041db019da48b338f171d5f68c67208bef6df6625b3e920f285fbb3f2e3c",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-en-cet4.db",
+            "https://fastly.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-en-cet4.db",
+            "https://gcore.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-en-cet4.db",
+            "https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-packs/vocab-en-cet4.db",
+            "https://github.com/hi-mamba/hi-mamba/raw/daosi-packs/vocab-en-cet4.db"
+          ]
+        }
+      ],
+      "wifiOnly": false,
+      "minAppVersionCode": 0,
+      "license": "MIT (ECDICT)"
+    },
+    {
+      "id": "vocab-en-cet6",
+      "kind": "VOCAB",
+      "version": 1,
+      "title": "英语六级词库",
+      "files": [
+        {
+          "name": "vocab-en-cet6.db",
+          "size": 1163264,
+          "sha256": "39d6122f963e44f8cbe888df8ab92a2bd2ccc17f90af15e0afedd8805202fc32",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-en-cet6.db",
+            "https://fastly.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-en-cet6.db",
+            "https://gcore.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-en-cet6.db",
+            "https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-packs/vocab-en-cet6.db",
+            "https://github.com/hi-mamba/hi-mamba/raw/daosi-packs/vocab-en-cet6.db"
+          ]
+        }
+      ],
+      "wifiOnly": false,
+      "minAppVersionCode": 0,
+      "license": "MIT (ECDICT)"
+    },
+    {
+      "id": "vocab-en-ielts",
+      "kind": "VOCAB",
+      "version": 1,
+      "title": "雅思词库",
+      "files": [
+        {
+          "name": "vocab-en-ielts.db",
+          "size": 1056768,
+          "sha256": "e9dd7978978f7f6d8f063999061a3a358de36261b8e3f05577bbbeef3a80dd80",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-en-ielts.db",
+            "https://fastly.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-en-ielts.db",
+            "https://gcore.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-en-ielts.db",
+            "https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-packs/vocab-en-ielts.db",
+            "https://github.com/hi-mamba/hi-mamba/raw/daosi-packs/vocab-en-ielts.db"
+          ]
+        }
+      ],
+      "wifiOnly": false,
+      "minAppVersionCode": 0,
+      "license": "MIT (ECDICT)"
+    },
+    {
+      "id": "vocab-en-toefl",
+      "kind": "VOCAB",
+      "version": 1,
+      "title": "托福词库",
+      "files": [
+        {
+          "name": "vocab-en-toefl.db",
+          "size": 1417216,
+          "sha256": "36cb414c6e0f5a76e56cf71129d7287b820405f2acb439088e3096766f730605",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-en-toefl.db",
+            "https://fastly.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-en-toefl.db",
+            "https://gcore.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-en-toefl.db",
+            "https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-packs/vocab-en-toefl.db",
+            "https://github.com/hi-mamba/hi-mamba/raw/daosi-packs/vocab-en-toefl.db"
+          ]
+        }
+      ],
+      "wifiOnly": false,
+      "minAppVersionCode": 0,
+      "license": "MIT (ECDICT)"
+    },
+    {
+      "id": "vocab-en-basic",
+      "kind": "VOCAB",
+      "version": 1,
+      "title": "英语基础 2000（日常口语）",
+      "files": [
+        {
+          "name": "vocab-en-basic.db",
+          "size": 471040,
+          "sha256": "2d881a45d1ecd0ac0e60e2b07361b71f9c7b2971b94b7f40c56980dfaf7a6c22",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-en-basic.db",
+            "https://fastly.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-en-basic.db",
+            "https://gcore.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-en-basic.db",
+            "https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-packs/vocab-en-basic.db",
+            "https://github.com/hi-mamba/hi-mamba/raw/daosi-packs/vocab-en-basic.db"
+          ]
+        }
+      ],
+      "wifiOnly": false,
+      "minAppVersionCode": 0,
+      "license": "MIT (ECDICT)"
+    },
+    {
+      "id": "vocab-en-tem4",
+      "kind": "VOCAB",
+      "version": 1,
+      "title": "英语专四参考词表",
+      "files": [
+        {
+          "name": "vocab-en-tem4.db",
+          "size": 1564672,
+          "sha256": "31f6a4784936f0e1b3c201a01c5e8af060c3d6419c112d50d4b0c3f83ed924f8",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-en-tem4.db",
+            "https://fastly.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-en-tem4.db",
+            "https://gcore.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-en-tem4.db",
+            "https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-packs/vocab-en-tem4.db",
+            "https://github.com/hi-mamba/hi-mamba/raw/daosi-packs/vocab-en-tem4.db"
+          ]
+        }
+      ],
+      "wifiOnly": false,
+      "minAppVersionCode": 0,
+      "license": "MIT (ECDICT)"
+    },
+    {
+      "id": "vocab-en-tem8",
+      "kind": "VOCAB",
+      "version": 1,
+      "title": "英语专八参考词表",
+      "files": [
+        {
+          "name": "vocab-en-tem8.db",
+          "size": 2736128,
+          "sha256": "0988b565799a5d7fb722f82265f028f82644b15b8c833b172b49d836b5dc2f6f",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-en-tem8.db",
+            "https://fastly.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-en-tem8.db",
+            "https://gcore.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-en-tem8.db",
+            "https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-packs/vocab-en-tem8.db",
+            "https://github.com/hi-mamba/hi-mamba/raw/daosi-packs/vocab-en-tem8.db"
+          ]
+        }
+      ],
+      "wifiOnly": false,
+      "minAppVersionCode": 0,
+      "license": "MIT (ECDICT)"
+    },
+    {
+      "id": "vocab-ja-sample",
+      "kind": "VOCAB",
+      "version": 1,
+      "title": "日语入门示例词表",
+      "files": [
+        {
+          "name": "vocab-ja-sample.db",
+          "size": 24576,
+          "sha256": "41888a4605cb2967586606fc7b9b001c948955508aa81bf068b442e8edf4af92",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-ja-sample.db",
+            "https://fastly.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-ja-sample.db",
+            "https://gcore.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-ja-sample.db",
+            "https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-packs/vocab-ja-sample.db",
+            "https://github.com/hi-mamba/hi-mamba/raw/daosi-packs/vocab-ja-sample.db"
+          ]
+        }
+      ],
+      "wifiOnly": false,
+      "minAppVersionCode": 0,
+      "license": "CC0 (hand-written by DAOSI)"
+    },
+    {
+      "id": "vocab-yue-sample",
+      "kind": "VOCAB",
+      "version": 1,
+      "title": "粤语入门示例词表",
+      "files": [
+        {
+          "name": "vocab-yue-sample.db",
+          "size": 24576,
+          "sha256": "1ceb7cb3cd8d36b6ab6b94d7831b2f3cc3347d959017b926e3c9bee31c7e84bf",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-yue-sample.db",
+            "https://fastly.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-yue-sample.db",
+            "https://gcore.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-yue-sample.db",
+            "https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-packs/vocab-yue-sample.db",
+            "https://github.com/hi-mamba/hi-mamba/raw/daosi-packs/vocab-yue-sample.db"
+          ]
+        }
+      ],
+      "wifiOnly": false,
+      "minAppVersionCode": 0,
+      "license": "CC0 (hand-written by DAOSI)"
+    },
+    {
+      "id": "vocab-ja-n5",
+      "kind": "VOCAB",
+      "version": 1,
+      "title": "日语 JLPT N5 词库",
+      "files": [
+        {
+          "name": "vocab-ja-n5.db",
+          "size": 143360,
+          "sha256": "50a58ba3483ba0e906b1e94f39b3af22de48abba1f0ca13b41069bc4344bacf9",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-ja-n5.db",
+            "https://fastly.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-ja-n5.db",
+            "https://gcore.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-ja-n5.db",
+            "https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-packs/vocab-ja-n5.db",
+            "https://github.com/hi-mamba/hi-mamba/raw/daosi-packs/vocab-ja-n5.db"
+          ]
+        }
+      ],
+      "wifiOnly": false,
+      "minAppVersionCode": 0,
+      "license": "CC BY-SA 4.0 (JMdict/EDRDG; JLPT lists CC BY J. Waller)"
+    },
+    {
+      "id": "vocab-ja-n4",
+      "kind": "VOCAB",
+      "version": 1,
+      "title": "日语 JLPT N4 词库",
+      "files": [
+        {
+          "name": "vocab-ja-n4.db",
+          "size": 139264,
+          "sha256": "df2862d2cccd5f7e29880d7c7306de45ce5eff58b7886ec35830714814213496",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-ja-n4.db",
+            "https://fastly.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-ja-n4.db",
+            "https://gcore.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-ja-n4.db",
+            "https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-packs/vocab-ja-n4.db",
+            "https://github.com/hi-mamba/hi-mamba/raw/daosi-packs/vocab-ja-n4.db"
+          ]
+        }
+      ],
+      "wifiOnly": false,
+      "minAppVersionCode": 0,
+      "license": "CC BY-SA 4.0 (JMdict/EDRDG; JLPT lists CC BY J. Waller)"
+    },
+    {
+      "id": "vocab-ja-n3",
+      "kind": "VOCAB",
+      "version": 1,
+      "title": "日语 JLPT N3 词库",
+      "files": [
+        {
+          "name": "vocab-ja-n3.db",
+          "size": 385024,
+          "sha256": "545df4508efedce21bf20017924d6fb0bc7c5f06f9bbd80547fd756197002d31",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-ja-n3.db",
+            "https://fastly.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-ja-n3.db",
+            "https://gcore.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-ja-n3.db",
+            "https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-packs/vocab-ja-n3.db",
+            "https://github.com/hi-mamba/hi-mamba/raw/daosi-packs/vocab-ja-n3.db"
+          ]
+        }
+      ],
+      "wifiOnly": false,
+      "minAppVersionCode": 0,
+      "license": "CC BY-SA 4.0 (JMdict/EDRDG; JLPT lists CC BY J. Waller)"
+    },
+    {
+      "id": "vocab-ja-n2",
+      "kind": "VOCAB",
+      "version": 1,
+      "title": "日语 JLPT N2 词库",
+      "files": [
+        {
+          "name": "vocab-ja-n2.db",
+          "size": 331776,
+          "sha256": "5d4d0b1af3347c69c2abfdc8828a51785aa1617da3202400f8936bc1ef0b68ab",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-ja-n2.db",
+            "https://fastly.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-ja-n2.db",
+            "https://gcore.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-ja-n2.db",
+            "https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-packs/vocab-ja-n2.db",
+            "https://github.com/hi-mamba/hi-mamba/raw/daosi-packs/vocab-ja-n2.db"
+          ]
+        }
+      ],
+      "wifiOnly": false,
+      "minAppVersionCode": 0,
+      "license": "CC BY-SA 4.0 (JMdict/EDRDG; JLPT lists CC BY J. Waller)"
+    },
+    {
+      "id": "vocab-ja-n1",
+      "kind": "VOCAB",
+      "version": 1,
+      "title": "日语 JLPT N1 词库",
+      "files": [
+        {
+          "name": "vocab-ja-n1.db",
+          "size": 466944,
+          "sha256": "93e15778427d86d7294f25f8018529331dbaae92c8679aeb314b93b1716f1bec",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-ja-n1.db",
+            "https://fastly.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-ja-n1.db",
+            "https://gcore.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-ja-n1.db",
+            "https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-packs/vocab-ja-n1.db",
+            "https://github.com/hi-mamba/hi-mamba/raw/daosi-packs/vocab-ja-n1.db"
+          ]
+        }
+      ],
+      "wifiOnly": false,
+      "minAppVersionCode": 0,
+      "license": "CC BY-SA 4.0 (JMdict/EDRDG; JLPT lists CC BY J. Waller)"
+    },
+    {
+      "id": "vocab-yue-core",
+      "kind": "VOCAB",
+      "version": 1,
+      "title": "粤语核心词库",
+      "files": [
+        {
+          "name": "vocab-yue-core.db",
+          "size": 380928,
+          "sha256": "55b8d4c1cd49409a2a94930d381191b1bd60f7d3a30677315c2dee34c556f3ac",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-yue-core.db",
+            "https://fastly.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-yue-core.db",
+            "https://gcore.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/vocab-yue-core.db",
+            "https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-packs/vocab-yue-core.db",
+            "https://github.com/hi-mamba/hi-mamba/raw/daosi-packs/vocab-yue-core.db"
+          ]
+        }
+      ],
+      "wifiOnly": false,
+      "minAppVersionCode": 0,
+      "license": "CC BY-SA 4.0 (CC-Canto, CC-CEDICT; HKCanCor CC BY 4.0)"
+    },
+    {
+      "id": "sentences-en",
+      "kind": "PASSAGES",
+      "version": 2,
+      "title": "英语例句（Tatoeba）",
+      "files": [
+        {
+          "name": "sentences-en.db",
+          "size": 3600384,
+          "sha256": "3d83830163f2143a100952bf82b309bee0c1569b77f5258e883a7991b77ad173",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/sentences-en.db",
+            "https://fastly.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/sentences-en.db",
+            "https://gcore.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/sentences-en.db",
+            "https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-packs/sentences-en.db",
+            "https://github.com/hi-mamba/hi-mamba/raw/daosi-packs/sentences-en.db"
+          ]
+        }
+      ],
+      "wifiOnly": false,
+      "minAppVersionCode": 0,
+      "license": "CC BY 2.0 FR (Tatoeba)"
+    },
+    {
+      "id": "sentences-ja",
+      "kind": "PASSAGES",
+      "version": 2,
+      "title": "日语例句（Tatoeba）",
+      "files": [
+        {
+          "name": "sentences-ja.db",
+          "size": 3244032,
+          "sha256": "f4367a84b991011f8a25ea519f034bfbea4cae2bf50ad3cf285bce020cd162a2",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/sentences-ja.db",
+            "https://fastly.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/sentences-ja.db",
+            "https://gcore.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/sentences-ja.db",
+            "https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-packs/sentences-ja.db",
+            "https://github.com/hi-mamba/hi-mamba/raw/daosi-packs/sentences-ja.db"
+          ]
+        }
+      ],
+      "wifiOnly": false,
+      "minAppVersionCode": 0,
+      "license": "CC BY 2.0 FR (Tatoeba)"
+    },
+    {
+      "id": "sentences-yue",
+      "kind": "PASSAGES",
+      "version": 2,
+      "title": "粤语例句（Tatoeba）",
+      "files": [
+        {
+          "name": "sentences-yue.db",
+          "size": 692224,
+          "sha256": "b275d34f0937899e930c4cf12b1d5de3d031bdefb7f8233c15c07a4bd3f3dd1a",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/sentences-yue.db",
+            "https://fastly.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/sentences-yue.db",
+            "https://gcore.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/sentences-yue.db",
+            "https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-packs/sentences-yue.db",
+            "https://github.com/hi-mamba/hi-mamba/raw/daosi-packs/sentences-yue.db"
+          ]
+        }
+      ],
+      "wifiOnly": false,
+      "minAppVersionCode": 0,
+      "license": "CC BY 2.0 FR (Tatoeba)"
+    },
+    {
+      "id": "scenes-en",
+      "kind": "PASSAGES",
+      "version": 2,
+      "title": "英语情景对话",
+      "files": [
+        {
+          "name": "scenes-en.db",
+          "size": 122880,
+          "sha256": "b43bf913db17fb83490b1b378f47a333498a4259f20fa7b2fefd9db7c562ac22",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/scenes-en.db",
+            "https://fastly.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/scenes-en.db",
+            "https://gcore.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/scenes-en.db",
+            "https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-packs/scenes-en.db",
+            "https://github.com/hi-mamba/hi-mamba/raw/daosi-packs/scenes-en.db"
+          ]
+        }
+      ],
+      "wifiOnly": false,
+      "minAppVersionCode": 0,
+      "license": "CC0 (written by DAOSI)"
+    },
+    {
+      "id": "scenes-ja",
+      "kind": "PASSAGES",
+      "version": 2,
+      "title": "日语情景对话",
+      "files": [
+        {
+          "name": "scenes-ja.db",
+          "size": 176128,
+          "sha256": "4eed706614f0924489947e4049a3ea2763f1b9976cbb8e3601f37d8b565d1f31",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/scenes-ja.db",
+            "https://fastly.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/scenes-ja.db",
+            "https://gcore.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/scenes-ja.db",
+            "https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-packs/scenes-ja.db",
+            "https://github.com/hi-mamba/hi-mamba/raw/daosi-packs/scenes-ja.db"
+          ]
+        }
+      ],
+      "wifiOnly": false,
+      "minAppVersionCode": 0,
+      "license": "CC0 (written by DAOSI)"
+    },
+    {
+      "id": "scenes-yue",
+      "kind": "PASSAGES",
+      "version": 2,
+      "title": "粤语情景对话",
+      "files": [
+        {
+          "name": "scenes-yue.db",
+          "size": 147456,
+          "sha256": "1981d6aa8dedbbe3d6a73bb469beb30ebb8646db9004cb64466890be42affb62",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/scenes-yue.db",
+            "https://fastly.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/scenes-yue.db",
+            "https://gcore.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/scenes-yue.db",
+            "https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-packs/scenes-yue.db",
+            "https://github.com/hi-mamba/hi-mamba/raw/daosi-packs/scenes-yue.db"
+          ]
+        }
+      ],
+      "wifiOnly": false,
+      "minAppVersionCode": 0,
+      "license": "CC0 (written by DAOSI)"
+    },
+    {
+      "id": "tones-yue",
+      "kind": "PASSAGES",
+      "version": 1,
+      "title": "粤语六声训练",
+      "files": [
+        {
+          "name": "tones-yue.db",
+          "size": 36864,
+          "sha256": "f7282519f40ff4afb3b5c4b110a18f4c603be0d17aa59149b3c7574da445f6ef",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/tones-yue.db",
+            "https://fastly.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/tones-yue.db",
+            "https://gcore.jsdelivr.net/gh/hi-mamba/hi-mamba@daosi-packs/tones-yue.db",
+            "https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-packs/tones-yue.db",
+            "https://github.com/hi-mamba/hi-mamba/raw/daosi-packs/tones-yue.db"
+          ]
+        }
+      ],
+      "wifiOnly": false,
+      "minAppVersionCode": 0,
+      "license": "CC0 (written by DAOSI)"
+    }
+  ]
+}
