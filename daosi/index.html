@@ -59,7 +59,7 @@
   </div>
 
   <div class="grid" id="downloads">
-    <div class="card" data-asset="DAOSI-Android.apk" data-fallback="DAOSI-Android-debug.apk">
+    <div class="card" id="android" data-asset="DAOSI-Android.apk" data-fallback="DAOSI-Android-debug.apk">
       <h2>🤖 安卓</h2>
       <div class="meta">Android 8.0+ · 64 位（arm64）</div>
       <img class="qr" src="qr/android.svg" alt="android 下载二维码" loading="lazy">
@@ -146,7 +146,7 @@
         // No release yet: fall back to installers pushed to the `daosi-downloads` branch.
         fetch("https://api.github.com/repos/hi-mamba/hi-mamba/contents/?ref=daosi-downloads")
           .then(r => r.ok ? r.json() : [])
-          .then(files => {
+            .then(async files => {
             const byName = Object.fromEntries(files.map(f => [f.name, f]));
             cards.forEach(c => {
               const f = byName[c.dataset.asset] || (c.dataset.fallback && byName[c.dataset.fallback]);
@@ -155,7 +155,21 @@
               b.href = "https://github.com/hi-mamba/hi-mamba/raw/daosi-downloads/" + f.name;
               c.querySelector(".meta").textContent += ` · ${(f.size / 1048576).toFixed(1)} MB`;
             });
-            status.textContent = "当前为手动发布的测试版本。";
+              status.textContent = "当前为公开测试版本，构建成功后自动更新。";
+              // Each platform has its own build metadata; older installers remain available.
+              await Promise.all(cards.map(async c => {
+                const f = byName[c.dataset.asset] || (c.dataset.fallback && byName[c.dataset.fallback]);
+                if (!f) return;
+                try {
+                  const response = await fetch(`https://raw.githubusercontent.com/hi-mamba/hi-mamba/daosi-downloads/${f.name}.json`, { cache: "no-store" });
+                  if (!response.ok) return;
+                  const info = await response.json();
+                  const updated = new Date(info.updatedAt);
+                  if (!Number.isNaN(updated.getTime())) {
+                    c.querySelector(".meta").textContent += ` · 更新于 ${updated.toLocaleString("zh-CN")}`;
+                  }
+                } catch (_) { /* Metadata failure must not hide a working download. */ }
+              }));
           })
           .catch(() => { status.textContent = "暂时无法读取版本信息。"; });
       } else {
