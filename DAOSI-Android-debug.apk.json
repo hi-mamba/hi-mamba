@@ -1,8 +1,8 @@
 {
-  "sourceCommit": "63711d45a0155e21af8d2e7d64e7c367c2698fe2",
-  "updatedAt": "2026-10-29T14:14:49.690436+00:00",
-  "buildUrl": "https://github.com/hi-mamba/daosi/actions/runs/40887512681",
+  "sourceCommit": "2468ae20013b49e0e7d923af8c89a08beea82e02",
+  "updatedAt": "2026-10-29T14:53:35.122346+00:00",
+  "buildUrl": "https://github.com/hi-mamba/daosi/actions/runs/40893474465",
   "size": 98445994,
-  "sha256": "53abe81deaf466f7d204c8fc9db771cefd95a6350254edb778e3a1f5e59b7e1c",
+  "sha256": "3019503952a6d5d9dd7d5a579212f1f95da8e3ee69aff6e4f6121fc5b4d3fcbd",
   "signingCertificateSha256": "4e017f5c9f6d416c8b1a4bea9bf616f4fc53cb4637385302b94b0ca1f111e6fb"
 }
